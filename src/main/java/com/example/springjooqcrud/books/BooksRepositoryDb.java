@@ -11,7 +11,6 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Component
-@Primary
 @RequiredArgsConstructor
 public class BooksRepositoryDb implements BooksRepository {
     private final DSLContext context;
